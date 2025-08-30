@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Success</title>
+  <style>
+    :root{ --bg:#f4f6f9; --card:#fff; --accent:#4CAF50; --muted:#6b7280; --radius:12px; }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      background:var(--bg);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+      padding:24px;
+      color:#0f172a;
+    }
+    .card{
+      background:var(--card);
+      padding:28px;
+      border-radius:var(--radius);
+      box-shadow:0 8px 30px rgba(2,6,23,0.06);
+      text-align:center;
+      max-width:480px;
+      width:100%;
+    }
+    h1{ color:var(--accent); margin:0 0 8px; font-size:28px; }
+    p{ margin:0; color:var(--muted); font-size:15px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🎉 Sweet!</h1>
+    <p>Your details have been submitted successfully.</p>
+  </div>
+</body>
+</html>
